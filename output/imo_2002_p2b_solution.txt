@@ -1,0 +1,25 @@
+
+==========================
+ * From theorem premises:
+A B C D E F G H : Points
+CA = CB [00]
+CD = CA [01]
+CE = CA [02]
+CF = CA [03]
+FC = FD [04]
+CG = CA [05]
+GC = GD [06]
+D,B,H are collinear [07]
+
+ * Auxiliary Constructions:
+: Points
+
+
+ * Proof steps:
+001. CF = CA [03] & CG = CA [05] & CE = CA [02] & CD = CA [01] & CA = CB [00] ⇒  D,B,F,G are concyclic [08]
+002. D,B,F,G are concyclic [08] ⇒  ∠DBG = ∠DFG [09]
+003. D,B,F,G are concyclic [08] ⇒  ∠FBD = ∠FGD [10]
+004. FC = FD [04] & CF = CA [03] & CG = CA [05] & GC = GD [06] ⇒  DG = DF [11]
+005. DG = DF [11] ⇒  ∠FGD = ∠DFG [12]
+006. D,B,H are collinear [07] & ∠DBG = ∠DFG [09] & ∠FGD = ∠DFG [12] & ∠FBD = ∠FGD [10] ⇒  ∠FBH = ∠HBG
+==========================

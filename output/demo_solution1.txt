@@ -1,0 +1,21 @@
+
+==========================
+ * From theorem premises:
+A B C D E F : Points
+DA = DB [00]
+DB = DC [01]
+DE = DA [02]
+C,B,F are collinear [03]
+E,F,A are collinear [04]
+
+ * Auxiliary Constructions:
+: Points
+
+
+ * Proof steps:
+001. DA = DB [00] & DE = DA [02] & DB = DC [01] ⇒  E,C,B,A are concyclic [05]
+002. E,C,B,A are concyclic [05] ⇒  ∠EBC = ∠EAC [06]
+003. C,B,F are collinear [03] & E,F,A are collinear [04] & ∠EBC = ∠EAC [06] ⇒  ∠EBF = ∠FAC [07]
+004. E,F,A are collinear [04] & C,F,B are collinear [03] ⇒  ∠EFB = ∠AFC [08]
+005. ∠EBF = ∠FAC [07] & ∠EFB = ∠AFC [08] (Similar Triangles)⇒  EF:BF = CF:FA
+==========================

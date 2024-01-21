@@ -1,0 +1,18 @@
+:meliad_lib/meliad
+python -m alphageometry --alsologtostderr --problems_file=/media/zhangzs/model/linux_share/learnning/chiefzzs/case/p1.txt --problem_name=demo --mode=alphageometry --out_file=./output/demo_solution.txt --defs_file=/media/zhangzs/model/linux_share/learnning/chiefzzs/defs.txt --rules_file=/media/zhangzs/model/linux_share/learnning/chiefzzs/rules.txt --beam_size=2 --search_depth=2 --ckpt_path=ag_ckpt_vocab --vocab_path=ag_ckpt_vocab/geometry.757.model --gin_search_paths=meliad_lib/meliad/transformer/configs --gin_file=base_htrans.gin --gin_file=size/medium_150M.gin --gin_file=options/positions_t5.gin --gin_file=options/lr_cosine_decay.gin --gin_file=options/seq_1024_nocache.gin --gin_file=geometry_150M_generate.gin --gin_param=DecoderOnlyLanguageModelGenerate.output_token_losses=True --gin_param=TransformerTaskConfig.batch_size=2 --gin_param=TransformerTaskConfig.sequence_length=128 --gin_param=Trainer.restore_state_variables=False
+solve problem $II$
+main  this_problem ==> <problem.Problem object at 0x7f0cdb348910>
+pretty===>  ('cong', 'a', 'd', 'b', 'd') D a d b d
+pretty===>  ('cong', 'b', 'd', 'c', 'd') D b d c d
+pretty===>  ('cong', 'a', 'd', 'b', 'd') D a d b d
+pretty===>  ('cong', 'b', 'd', 'c', 'd') D b d c d
+pretty===>  ('cong', 'a', 'd', 'd', 'e') D a d d e
+pretty===>  ('cong', 'a', 'd', 'd', 'e') D a d d e
+pretty===>  ('coll', 'a', 'e', 'f') C a e f
+pretty===>  ('coll', 'b', 'c', 'f') C b c f
+pretty===>  ('coll', 'a', 'e', 'f') C a e f
+pretty===>  ('coll', 'b', 'c', 'f') C b c f
+pretty===>  ['eqratio', 'f', 'e', 'f', 'b', 'f', 'c', 'f', 'a'] / f e f b f c f a
+run_ddar 开始画图 ===> <class 'geometry.Point'> <class 'geometry.Line'> <class 'geometry.Circle'> <class 'geometry.Segment'>
+main run_alphageometry ==> <lm_inference.LanguageModelInference object at 0x7f0cdd20b700> <problem.Problem object at 0x7f0cdb348910>
+problem $II$ solved

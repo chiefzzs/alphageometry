@@ -146,9 +146,14 @@ def pretty_nl(name: str, args: list[str]) -> str:
     a, b, c, d = args
     return f'{a} is the foot of {b} on {c}{d}'
 
-
 def pretty(txt: str) -> str:
+    data = pretty1(txt)
+    print("pretty===> " ,txt , data)
+    return data 
+    
+def pretty1(txt: str) -> str:
   """Pretty formating a predicate string."""
+  
   if isinstance(txt, str):
     txt = txt.split(' ')
   name, *args = txt
@@ -197,7 +202,7 @@ def pretty(txt: str) -> str:
     return f'T {a} {b} {c} {d}'
   if name == 'para':
     if len(args) == 2:  # this is algebraic derivation.
-      ab, cd = args  # ab = 'd( ... )'
+      ab, cd = args  # ab = 'd( ... txt)'
       return f'P {ab} {cd}'
     a, b, c, d = args
     return f'P {a} {b} {c} {d}'

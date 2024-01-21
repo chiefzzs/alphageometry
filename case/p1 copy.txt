@@ -1,0 +1,2 @@
+demo
+a b c = triangle a b c; d = circle d a b c; e = on_circle e d a; f = intersection_ll f a e c b ? eqratio f e f b f c f a

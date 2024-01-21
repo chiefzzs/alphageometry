@@ -1,7 +1,10 @@
+
 #!/bin/bash
 DATA=ag_ckpt_vocab
 
 MELIAD_PATH=meliad_lib/meliad
+#mkdir -p $MELIAD_PATH
+#git clone https://github.com/google-research/meliad $MELIAD_PATH
 export PYTHONPATH=$PYTHONPATH:$MELIAD_PATH
 
 DDAR_ARGS=(
@@ -37,25 +40,19 @@ LM_ARGS=(
 echo $PYTHONPATH
 
 #INPUT_FILE=examples.txt
-INPUT_FILE=case/p1.txt
+INPUT_FILE=imo_ag_30.txt
 
-
-II="demo"
-echo "" > ./output/${II#"translated_"}_solution1.txt 
-echo python -m alphageometry --alsologtostderr --problems_file=$(pwd)/$INPUT_FILE --problem_name=${II} --mode=alphageometry --out_file=./output/${II#"translated_"}_solution.txt "${DDAR_ARGS[@]}" "${SEARCH_ARGS[@]}" "${LM_ARGS[@]}"
-
- 
- 
-    echo 'solve problem $II$'
-
+for ii in $(cat $INPUT_FILE | grep "translated"); 
+do
+    echo 'solve problem $ii$'
     python -m alphageometry \
         --alsologtostderr \
         --problems_file=$(pwd)/$INPUT_FILE \
-        --problem_name=${II} \
+        --problem_name=${ii} \
         --mode=alphageometry \
-        --out_file=./output/${II#"translated_"}_solution1.txt \
+        --out_file=./output/${ii#"translated_"}_solution.txt \
         "${DDAR_ARGS[@]}" \
         "${SEARCH_ARGS[@]}" \
         "${LM_ARGS[@]}"
-    echo 'problem $II$ solved'
- 
+    echo 'problem $ii$ solved'
+done 

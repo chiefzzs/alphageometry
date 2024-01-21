@@ -1,0 +1,173 @@
+:meliad_lib/meliad
+solve problem $ii$
+main  this_problem ==> <problem.Problem object at 0x7f3799b68fa0>
+pretty===>  ('perp', 'a', 'b', 'a', 'c') T a b a c
+pretty===>  ('perp', 'a', 'b', 'a', 'c') T a b a c
+pretty===>  ('perp', 'a', 'b', 'b', 'd') T a b b d
+pretty===>  ('perp', 'a', 'b', 'b', 'd') T a b b d
+pretty===>  ('cong', 'a', 'c', 'c', 'e') D a c c e
+pretty===>  ('cong', 'b', 'd', 'd', 'e') D b d d e
+pretty===>  ('cong', 'a', 'c', 'c', 'e') D a c c e
+pretty===>  ('cong', 'b', 'd', 'd', 'e') D b d d e
+pretty===>  ('cong', 'a', 'c', 'c', 'f') D a c c f
+pretty===>  ('cong', 'b', 'd', 'd', 'f') D b d d f
+pretty===>  ('cong', 'a', 'c', 'c', 'f') D a c c f
+pretty===>  ('cong', 'b', 'd', 'd', 'f') D b d d f
+pretty===>  ('para', 'a', 'b', 'e', 'g') P a b e g
+pretty===>  ('cong', 'a', 'c', 'c', 'g') D a c c g
+pretty===>  ('cong', 'a', 'c', 'c', 'g') D a c c g
+pretty===>  ('para', 'a', 'b', 'e', 'g') P a b e g
+pretty===>  ('para', 'a', 'b', 'e', 'h') P a b e h
+pretty===>  ('cong', 'b', 'd', 'd', 'h') D b d d h
+pretty===>  ('cong', 'b', 'd', 'd', 'h') D b d d h
+pretty===>  ('para', 'a', 'b', 'e', 'h') P a b e h
+pretty===>  ('coll', 'a', 'g', 'i') C a g i
+pretty===>  ('coll', 'b', 'h', 'i') C b h i
+pretty===>  ('coll', 'a', 'g', 'i') C a g i
+pretty===>  ('coll', 'b', 'h', 'i') C b h i
+pretty===>  ('coll', 'a', 'f', 'j') C a f j
+pretty===>  ('coll', 'g', 'h', 'j') C g h j
+pretty===>  ('coll', 'a', 'f', 'j') C a f j
+pretty===>  ('coll', 'g', 'h', 'j') C g h j
+pretty===>  ('coll', 'b', 'f', 'k') C b f k
+pretty===>  ('coll', 'g', 'h', 'k') C g h k
+pretty===>  ('coll', 'b', 'f', 'k') C b f k
+pretty===>  ('coll', 'g', 'h', 'k') C g h k
+pretty===>  ['cong', 'i', 'j', 'i', 'k'] D i j i k
+run_ddar 开始画图 ===> <class 'geometry.Point'> <class 'geometry.Line'> <class 'geometry.Circle'> <class 'geometry.Segment'>
+main run_alphageometry ==> <lm_inference.LanguageModelInference object at 0x7f3799b8ac50> <problem.Problem object at 0x7f3799b68fa0>
+problem $ii$ solved
+solve problem $ii$
+main  this_problem ==> <problem.Problem object at 0x7f87c8e1cdf0>
+pretty===>  ('perp', 'a', 'd', 'b', 'c') T a d b c
+pretty===>  ('perp', 'a', 'c', 'b', 'd') T a c b d
+pretty===>  ('perp', 'a', 'b', 'c', 'd') T a b c d
+pretty===>  ('perp', 'a', 'c', 'b', 'd') T a c b d
+pretty===>  ('perp', 'a', 'd', 'b', 'c') T a d b c
+pretty===>  ('eqangle', 'a', 'b', 'a', 'h', 'a', 'h', 'a', 'c') ^ a b a h a h a c
+pretty===>  ('eqangle', 'a', 'c', 'c', 'h', 'c', 'h', 'b', 'c') ^ c a c h c h c b
+pretty===>  ('eqangle', 'a', 'b', 'b', 'h', 'b', 'h', 'b', 'c') ^ b a b h b h b c
+pretty===>  ('cong', 'e', 'h', 'f', 'h') D e h f h
+pretty===>  ('cong', 'f', 'h', 'g', 'h') D f h g h
+pretty===>  ('coll', 'b', 'c', 'e') C b c e
+pretty===>  ('perp', 'b', 'c', 'e', 'h') T b c e h
+pretty===>  ('coll', 'a', 'c', 'f') C a c f
+pretty===>  ('perp', 'a', 'c', 'f', 'h') T a c f h
+pretty===>  ('coll', 'a', 'b', 'g') C a b g
+pretty===>  ('perp', 'a', 'b', 'g', 'h') T a b g h
+pretty===>  ('coll', 'b', 'c', 'e') C b c e
+pretty===>  ('perp', 'b', 'c', 'e', 'h') T b c e h
+pretty===>  ('coll', 'a', 'c', 'f') C a c f
+pretty===>  ('perp', 'a', 'c', 'f', 'h') T a c f h
+pretty===>  ('coll', 'a', 'b', 'g') C a b g
+pretty===>  ('perp', 'a', 'b', 'g', 'h') T a b g h
+pretty===>  ('eqangle', 'a', 'b', 'a', 'h', 'a', 'h', 'a', 'c') ^ a b a h a h a c
+pretty===>  ('eqangle', 'a', 'c', 'c', 'h', 'c', 'h', 'b', 'c') ^ c a c h c h c b
+pretty===>  ('perp', 'a', 'i', 'b', 'c') T a i b c
+pretty===>  ('coll', 'b', 'c', 'i') C b c i
+pretty===>  ('coll', 'b', 'c', 'i') C b c i
+pretty===>  ('perp', 'a', 'i', 'b', 'c') T a i b c
+pretty===>  ('perp', 'a', 'c', 'b', 'j') T a c b j
+pretty===>  ('coll', 'a', 'c', 'j') C a c j
+pretty===>  ('coll', 'a', 'c', 'j') C a c j
+pretty===>  ('perp', 'a', 'c', 'b', 'j') T a c b j
+pretty===>  ('perp', 'a', 'b', 'c', 'k') T a b c k
+pretty===>  ('coll', 'a', 'b', 'k') C a b k
+pretty===>  ('coll', 'a', 'b', 'k') C a b k
+pretty===>  ('perp', 'a', 'b', 'c', 'k') T a b c k
+pretty===>  ('cong', 'e', 'i', 'e', 'l') D e i e l
+pretty===>  ('cong', 'f', 'i', 'f', 'l') D f i f l
+pretty===>  ('perp', 'e', 'f', 'i', 'l') T e f i l
+pretty===>  ('cong', 'e', 'i', 'e', 'l') D e i e l
+pretty===>  ('cong', 'f', 'i', 'f', 'l') D f i f l
+pretty===>  ('cong', 'e', 'j', 'e', 'm') D e j e m
+pretty===>  ('cong', 'f', 'j', 'f', 'm') D f j f m
+pretty===>  ('perp', 'e', 'f', 'j', 'm') T e f j m
+pretty===>  ('cong', 'e', 'j', 'e', 'm') D e j e m
+pretty===>  ('cong', 'f', 'j', 'f', 'm') D f j f m
+pretty===>  ('cong', 'f', 'j', 'f', 'n') D f j f n
+pretty===>  ('cong', 'g', 'j', 'g', 'n') D g j g n
+pretty===>  ('perp', 'f', 'g', 'j', 'n') T f g j n
+pretty===>  ('cong', 'f', 'j', 'f', 'n') D f j f n
+pretty===>  ('cong', 'g', 'j', 'g', 'n') D g j g n
+pretty===>  ('cong', 'f', 'k', 'f', 'o') D f k f o
+pretty===>  ('cong', 'g', 'k', 'g', 'o') D g k g o
+pretty===>  ('perp', 'f', 'g', 'k', 'o') T f g k o
+pretty===>  ('cong', 'f', 'k', 'f', 'o') D f k f o
+pretty===>  ('cong', 'g', 'k', 'g', 'o') D g k g o
+pretty===>  ('coll', 'l', 'm', 'p') C l m p
+pretty===>  ('coll', 'n', 'o', 'p') C n o p
+pretty===>  ('coll', 'l', 'm', 'p') C l m p
+pretty===>  ('coll', 'n', 'o', 'p') C n o p
+pretty===>  ['cong', 'h', 'p', 'h', 'e'] D h p h e
+main run_alphageometry ==> <lm_inference.LanguageModelInference object at 0x7f87c8e3ec80> <problem.Problem object at 0x7f87c8e1cdf0>
+problem $ii$ solved
+solve problem $ii$
+main  this_problem ==> <problem.Problem object at 0x7fc391360bb0>
+pretty===>  ('coll', 'a', 'b', 'c') C a b c
+pretty===>  ('cong', 'a', 'c', 'b', 'c') D a c b c
+pretty===>  ('coll', 'a', 'b', 'c') C a b c
+pretty===>  ('cong', 'a', 'c', 'b', 'c') D a c b c
+pretty===>  ('cong', 'a', 'c', 'c', 'd') D a c c d
+pretty===>  ('cong', 'a', 'c', 'c', 'd') D a c c d
+pretty===>  ('cong', 'a', 'c', 'c', 'e') D a c c e
+pretty===>  ('cong', 'a', 'e', 'd', 'e') D a e d e
+pretty===>  ('eqangle', 'a', 'd', 'd', 'e', 'a', 'e', 'a', 'd') ^ d a d e a e a d
+pretty===>  ('cong', 'a', 'c', 'c', 'e') D a c c e
+pretty===>  ('cong', 'a', 'e', 'd', 'e') D a e d e
+pretty===>  ('eqangle', 'a', 'd', 'd', 'e', 'a', 'e', 'a', 'd') ^ d a d e a e a d
+pretty===>  ('cong', 'c', 'f', 'd', 'f') D c f d f
+pretty===>  ('eqangle', 'c', 'd', 'd', 'f', 'c', 'f', 'c', 'd') ^ d c d f c f c d
+pretty===>  ('cong', 'a', 'c', 'c', 'f') D a c c f
+pretty===>  ('cong', 'a', 'c', 'c', 'f') D a c c f
+pretty===>  ('cong', 'c', 'f', 'd', 'f') D c f d f
+pretty===>  ('eqangle', 'c', 'd', 'd', 'f', 'c', 'f', 'c', 'd') ^ d c d f c f c d
+pretty===>  ('cong', 'c', 'g', 'd', 'g') D c g d g
+pretty===>  ('eqangle', 'c', 'd', 'd', 'g', 'c', 'g', 'c', 'd') ^ d c d g c g c d
+pretty===>  ('cong', 'a', 'c', 'c', 'g') D a c c g
+pretty===>  ('cong', 'a', 'c', 'c', 'g') D a c c g
+pretty===>  ('cong', 'c', 'g', 'd', 'g') D c g d g
+pretty===>  ('eqangle', 'c', 'd', 'd', 'g', 'c', 'g', 'c', 'd') ^ d c d g c g c d
+pretty===>  ('para', 'c', 'h', 'd', 'e') P c h d e
+pretty===>  ('coll', 'b', 'd', 'h') C b d h
+pretty===>  ('coll', 'b', 'd', 'h') C b d h
+pretty===>  ('para', 'c', 'h', 'd', 'e') P c h d e
+pretty===>  ['eqangle', 'f', 'b', 'f', 'h', 'f', 'h', 'f', 'g'] ^ f b f h f h f g
+run_ddar 开始画图 ===> <class 'geometry.Point'> <class 'geometry.Line'> <class 'geometry.Circle'> <class 'geometry.Segment'>
+main run_alphageometry ==> <lm_inference.LanguageModelInference object at 0x7fc391382c80> <problem.Problem object at 0x7fc391360bb0>
+problem $ii$ solved
+solve problem $ii$
+main  this_problem ==> <problem.Problem object at 0x7f4a3c324b50>
+pretty===>  ('coll', 'a', 'b', 'c') C a b c
+pretty===>  ('cong', 'a', 'c', 'b', 'c') D a c b c
+pretty===>  ('coll', 'a', 'b', 'c') C a b c
+pretty===>  ('cong', 'a', 'c', 'b', 'c') D a c b c
+pretty===>  ('cong', 'a', 'c', 'c', 'd') D a c c d
+pretty===>  ('cong', 'a', 'c', 'c', 'd') D a c c d
+pretty===>  ('cong', 'a', 'c', 'c', 'e') D a c c e
+pretty===>  ('cong', 'a', 'e', 'd', 'e') D a e d e
+pretty===>  ('eqangle', 'a', 'd', 'd', 'e', 'a', 'e', 'a', 'd') ^ d a d e a e a d
+pretty===>  ('cong', 'a', 'c', 'c', 'e') D a c c e
+pretty===>  ('cong', 'a', 'e', 'd', 'e') D a e d e
+pretty===>  ('eqangle', 'a', 'd', 'd', 'e', 'a', 'e', 'a', 'd') ^ d a d e a e a d
+pretty===>  ('cong', 'c', 'f', 'd', 'f') D c f d f
+pretty===>  ('eqangle', 'c', 'd', 'd', 'f', 'c', 'f', 'c', 'd') ^ d c d f c f c d
+pretty===>  ('cong', 'a', 'c', 'c', 'f') D a c c f
+pretty===>  ('cong', 'a', 'c', 'c', 'f') D a c c f
+pretty===>  ('cong', 'c', 'f', 'd', 'f') D c f d f
+pretty===>  ('eqangle', 'c', 'd', 'd', 'f', 'c', 'f', 'c', 'd') ^ d c d f c f c d
+pretty===>  ('cong', 'c', 'g', 'd', 'g') D c g d g
+pretty===>  ('eqangle', 'c', 'd', 'd', 'g', 'c', 'g', 'c', 'd') ^ d c d g c g c d
+pretty===>  ('cong', 'a', 'c', 'c', 'g') D a c c g
+pretty===>  ('cong', 'a', 'c', 'c', 'g') D a c c g
+pretty===>  ('cong', 'c', 'g', 'd', 'g') D c g d g
+pretty===>  ('eqangle', 'c', 'd', 'd', 'g', 'c', 'g', 'c', 'd') ^ d c d g c g c d
+pretty===>  ('para', 'c', 'h', 'd', 'e') P c h d e
+pretty===>  ('coll', 'b', 'd', 'h') C b d h
+pretty===>  ('coll', 'b', 'd', 'h') C b d h
+pretty===>  ('para', 'c', 'h', 'd', 'e') P c h d e
+pretty===>  ['eqangle', 'b', 'f', 'b', 'h', 'b', 'h', 'b', 'g'] ^ b f b h b h b g
+run_ddar 开始画图 ===> <class 'geometry.Point'> <class 'geometry.Line'> <class 'geometry.Circle'> <class 'geometry.Segment'>
+main run_alphageometry ==> <lm_inference.LanguageModelInference object at 0x7f4a3c346bf0> <problem.Problem object at 0x7f4a3c324b50>
+problem $ii$ solved
+solve problem $ii$

@@ -41,7 +41,7 @@ INPUT_FILE=case/p1.txt
 
 
 II="demo"
-echo "" > ./output/${II#"translated_"}_solution1.txt 
+echo "" > ./output/${II#"translated_"}_solution2.txt 
 echo python -m alphageometry --alsologtostderr --problems_file=$(pwd)/$INPUT_FILE --problem_name=${II} --mode=alphageometry --out_file=./output/${II#"translated_"}_solution.txt "${DDAR_ARGS[@]}" "${SEARCH_ARGS[@]}" "${LM_ARGS[@]}"
 
  
@@ -52,8 +52,8 @@ echo python -m alphageometry --alsologtostderr --problems_file=$(pwd)/$INPUT_FIL
         --alsologtostderr \
         --problems_file=$(pwd)/$INPUT_FILE \
         --problem_name=${II} \
-        --mode=alphageometry \
-        --out_file=./output/${II#"translated_"}_solution1.txt \
+        --mode=ddar \
+        --out_file=./output/${II#"translated_"}_solution2.txt \
         "${DDAR_ARGS[@]}" \
         "${SEARCH_ARGS[@]}" \
         "${LM_ARGS[@]}"

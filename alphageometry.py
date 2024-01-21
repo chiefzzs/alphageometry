@@ -222,7 +222,7 @@ def run_ddar(g: gh.Graph, p: pr.Problem, out_file: str) -> bool:
     return False
 
   write_solution(g, p, out_file)
-
+  print("run_ddar 开始画图 ===>" ,gh.Point , gh.Line , gh.Circle,gh.Segment )
   gh.nm.draw(
       g.type2nodes[gh.Point],
       g.type2nodes[gh.Line],
@@ -628,10 +628,13 @@ def main(_):
     )
 
   this_problem = problems[_PROBLEM_NAME.value]
-
+  print("main  this_problem ==>" ,this_problem )
+  
   if _MODE.value == 'ddar':
     g, _ = gh.Graph.build_problem(this_problem, DEFINITIONS)
+    print("main gh.Graph.build_problem ==>" ,g ,this_problem )
     run_ddar(g, this_problem, _OUT_FILE.value)
+    print("main gh.Graph.build_problem ==>" ,g ,this_problem )
 
   elif _MODE.value == 'alphageometry':
     model = get_lm(_CKPT_PATH.value, _VOCAB_PATH.value)
@@ -642,7 +645,7 @@ def main(_):
         _BEAM_SIZE.value,
         _OUT_FILE.value,
     )
-
+    print("main run_alphageometry ==>" ,model, this_problem )
   else:
     raise ValueError(f'Unknown FLAGS.mode: {_MODE.value}')
 

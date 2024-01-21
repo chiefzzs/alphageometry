@@ -15,7 +15,7 @@ A,F,E are collinear [04]
  * Proof steps:
 001. DA = DB [00] & DE = DA [02] & DB = DC [01] ⇒  A,B,C,E are concyclic [05]
 002. A,B,C,E are concyclic [05] ⇒  ∠ACB = ∠AEB [06]
-003. B,C,F are collinear [03] & E,A,F are collinear [04] & ∠ACB = ∠AEB [06] ⇒  ∠ACF = ∠FEB [07]
-004. A,F,E are collinear [04] & B,C,F are collinear [03] ⇒  ∠AFC = ∠EFB [08]
-005. ∠ACF = ∠FEB [07] & ∠AFC = ∠EFB [08] (Similar Triangles)⇒  AF:CF = BF:EF
+003. B,C,F are collinear [03] & A,F,E are collinear [04] & ∠ACB = ∠AEB [06] ⇒  ∠ACF = ∠FEB [07]
+004. A,E,F are collinear [04] & B,C,F are collinear [03] ⇒  ∠AFC = ∠EFB [08]
+005. ∠ACF = ∠FEB [07] & ∠AFC = ∠EFB [08] (Similar Triangles)⇒  AF:CF = BF:FE
 ==========================

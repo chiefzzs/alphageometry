@@ -1,0 +1,40 @@
+/home/zhangzs/anaconda3/envs/geo/lib/python3.10/site-packages/flax/struct.py:132: FutureWarning: jax.tree_util.register_keypaths is deprecated, and will be removed in a future release. Please use `register_pytree_with_keys()` instead.
+  jax.tree_util.register_keypaths(data_clz, keypaths)
+/home/zhangzs/anaconda3/envs/geo/lib/python3.10/site-packages/flax/struct.py:132: FutureWarning: jax.tree_util.register_keypaths is deprecated, and will be removed in a future release. Please use `register_pytree_with_keys()` instead.
+  jax.tree_util.register_keypaths(data_clz, keypaths)
+/home/zhangzs/anaconda3/envs/geo/lib/python3.10/site-packages/flax/struct.py:132: FutureWarning: jax.tree_util.register_keypaths is deprecated, and will be removed in a future release. Please use `register_pytree_with_keys()` instead.
+  jax.tree_util.register_keypaths(data_clz, keypaths)
+2024-01-22 03:10:54.322998: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/zhangzs/anaconda3/envs/geo/lib/python3.10/site-packages/flax/struct.py:132: FutureWarning: jax.tree_util.register_keypaths is deprecated, and will be removed in a future release. Please use `register_pytree_with_keys()` instead.
+  jax.tree_util.register_keypaths(data_clz, keypaths)
+/home/zhangzs/anaconda3/envs/geo/lib/python3.10/site-packages/flax/struct.py:132: FutureWarning: jax.tree_util.register_keypaths is deprecated, and will be removed in a future release. Please use `register_pytree_with_keys()` instead.
+  jax.tree_util.register_keypaths(data_clz, keypaths)
+/home/zhangzs/anaconda3/envs/geo/lib/python3.10/site-packages/flax/struct.py:132: FutureWarning: jax.tree_util.register_keypaths is deprecated, and will be removed in a future release. Please use `register_pytree_with_keys()` instead.
+  jax.tree_util.register_keypaths(data_clz, keypaths)
+I0122 03:10:55.816670 140597625586752 graph.py:498] demo
+I0122 03:10:55.816777 140597625586752 graph.py:499] a b c = triangle a b c; d = circle d a b c; e = on_circle e d a; f = intersection_ll f a e c b ? eqratio f e f b f c f a
+I0122 03:10:55.905649 140597625586752 ddar.py:60] Depth 1/1000 time = 0.08353924751281738
+I0122 03:10:56.081309 140597625586752 ddar.py:60] Depth 2/1000 time = 0.17553114891052246
+I0122 03:10:56.082243 140597625586752 alphageometry.py:191] 
+==========================
+ * From theorem premises:
+A B C D E F : Points
+DA = DB [00]
+DB = DC [01]
+DE = DA [02]
+B,C,F are collinear [03]
+A,F,E are collinear [04]
+
+ * Auxiliary Constructions:
+: Points
+
+
+ * Proof steps:
+001. DA = DB [00] & DE = DA [02] & DB = DC [01] ⇒  A,B,C,E are concyclic [05]
+002. A,B,C,E are concyclic [05] ⇒  ∠ACB = ∠AEB [06]
+003. B,C,F are collinear [03] & A,F,E are collinear [04] & ∠ACB = ∠AEB [06] ⇒  ∠ACF = ∠FEB [07]
+004. A,E,F are collinear [04] & B,C,F are collinear [03] ⇒  ∠AFC = ∠EFB [08]
+005. ∠ACF = ∠FEB [07] & ∠AFC = ∠EFB [08] (Similar Triangles)⇒  AF:CF = BF:FE
+==========================
+
+I0122 03:10:56.082383 140597625586752 alphageometry.py:195] Solution written to ./output/demo_solution2.txt.
