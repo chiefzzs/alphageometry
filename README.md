@@ -1,3 +1,11 @@
+# install 
+1)  
+conda activate -n geo python=3.11.5
+conda activate geo 
+
+2) bash run.sh
+
+
 # 
 
 # 参考 
